@@ -1,0 +1,26 @@
+{
+  "name": "nutrition",
+  "version": "1.0.0",
+  "description": "Simple nutrition facts wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redblues/node-nutrition.git"
+  },
+  "keywords": [
+    "nutrition",
+    "health",
+    "facts",
+    "api",
+    "food"
+  ],
+  "author": "Williams Olivera <liamsolivera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redblues/node-nutrition/issues"
+  },
+  "homepage": "https://github.com/redblues/node-nutrition#readme"
+}
