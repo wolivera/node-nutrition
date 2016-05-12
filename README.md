@@ -10,3 +10,7 @@ Installation
 Linting
 	This project uses eslint code linting with standard rules.
 
+TODO
+
+	+ Grunt tasks
+	+ CI tool
