@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/redblues/node-nutrition/issues"
   },
-  "homepage": "https://github.com/redblues/node-nutrition#readme"
+  "homepage": "https://github.com/redblues/node-nutrition#readme",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "jsdoc": "^3.4.0"
+  }
 }
