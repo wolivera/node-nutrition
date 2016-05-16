@@ -14,3 +14,4 @@ TODO
 
 	+ Grunt tasks
 	+ CI tool
+	+ Coverage
