@@ -8,7 +8,8 @@ Installation
 	npm install node-nutrition --save
 
 Linting
-	This project uses eslint code linting with standard rules.
+
+	This project uses eslint with standard.js rules.
 
 TODO
 
