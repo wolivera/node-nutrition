@@ -1,18 +1,44 @@
 
-# node nutrition
+# Nutrition
 
-Simple nutrition facts wrapper
+Simple nutrition facts wrapper as an [NPM](https://www.npmjs.com/) module.
 
-Installation
+## Installation
 
-	npm install node-nutrition --save
+	npm install nutrition --save
+	
+## Usage
 
-Linting
+```js
+// import a single function
+import { f } from 'nutrition';
 
-	This project uses eslint with standard.js rules.
+// or everything at once
+import * as nutrition from 'nutrition';
 
-TODO
+const value  = nutrition.BMI(75, 1.75);
+```
 
-	+ Grunt tasks
-	+ CI tool
-	+ Coverage
+## Methods
+
+#### `BMI(weight, height, eng)`
+
+If eng (for English BMI style) is true then:
+
+- **weight** is used in pounds, otherwise in kilograms.
+- **height** is used in inches, otherwise in meters.
+
+
+
+## Next steps
+
++ Set of healthy methods
++ Unit tests
++ CI tool
++ Coverage
+
+## LICENSE
+
+MIT, see [LICENSE](https://github.com/redblues/node-nutrition/blob/master/LICENSE).
+
+
