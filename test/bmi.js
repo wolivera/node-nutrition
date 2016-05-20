@@ -2,14 +2,8 @@ import * as nutrition from '../lib/';
 import {expect} from 'chai';
 
 describe('BMI Functions', function() {
-  it('should calculate BMI using common formula convention', function (done) {
-  	console.log("nut")
-  	console.log(nutrition)
-  	const {bmi} = nutrition;
-  	console.log(bmi)
-  	console.log(nutrition.bmi(65, 1.75))
-    //expect(nutrition.bmi(65, 1.75)).to.equal(21.2);
-
+  it('should calculate BMI using common formula convention', function (done) { 
+    expect(nutrition.bmi(65, 1.75)).to.equal(21.2);
     done();
   });
 
