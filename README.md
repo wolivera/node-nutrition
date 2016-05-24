@@ -1,4 +1,6 @@
 
+[![Build Status](https://travis-ci.org/redblues/node-nutrition.svg?branch=master)](https://travis-ci.org/redblues/node-nutrition)
+
 # Nutrition
 
 Simple nutrition facts wrapper as an [NPM](https://www.npmjs.com/) module.
