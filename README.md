@@ -10,18 +10,22 @@ Simple nutrition facts wrapper as an [NPM](https://www.npmjs.com/) module.
 ## Usage
 
 ```js
-// import a single function
-import { f } from 'nutrition';
+// import for ES6
+import * as nutrition from 'nutrition'
 
-// or everything at once
-import * as nutrition from 'nutrition';
+const value  = nutrition.bmi(75, 1.75)
 
-const value  = nutrition.BMI(75, 1.75);
+
+// OR import for ES5
+var nutrition = require('nutrition')
+
+var value  = nutrition.bmi(75, 1.75)
+
 ```
 
 ## Methods
 
-#### `BMI(weight, height, eng)`
+#### `bmi(weight, height, eng)`
 
 If eng (for English BMI style) is true then:
 
@@ -33,8 +37,6 @@ If eng (for English BMI style) is true then:
 ## Next steps
 
 + Set of healthy methods
-+ Unit tests
-+ CI tool
 + Coverage
 
 ## LICENSE
