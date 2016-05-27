@@ -34,12 +34,22 @@ If eng (for English BMI style) is true then:
 - **weight** is used in pounds, otherwise in kilograms.
 - **height** is used in inches, otherwise in meters.
 
+#### `bmiClass(bmi)`
 
+Returns the class for the bmi value. Possible results are:
+
+- Underweight, Normal, Overweight, Obese 1 Class, Obese 2 Class, Morbid Obesity
+
+ 
 
 ## Next steps
 
 + Set of healthy methods
-+ Coverage
++ Coverage 
+
+## Contributing
+
+Please see [CONTRIBUTING](https://github.com/redblues/node-nutrition/blob/master/CONTRIBUTING.md).
 
 ## LICENSE
 
