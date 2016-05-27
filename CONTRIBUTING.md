@@ -4,7 +4,7 @@ Contributions are more than welcome. Feel free to propose new features, make pul
 
 ## Usage
 
-This npm module has been recently created. If you plan to use it in your application and you´d like an specific function to be be available, just add a new issue and I'll try to get it ready for the next version.
+This npm module has been recently created. If you plan to use it in your application and you´d like an specific function to be available, just add a new issue and I'll try to get it ready for the next version.
 
 ## Style conventions
 
