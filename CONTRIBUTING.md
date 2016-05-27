@@ -8,7 +8,7 @@ This npm module has been recently created. If you plan to use it in your applica
 
 ## Style conventions
 
-This module is using the ECMAScript 6 syntax and [Standard](http://standardjs.com/).
+This module is using the ECMAScript 6 syntax and [Standard](http://standardjs.com/) style guide.
 
 ## Creating pull requests
 
