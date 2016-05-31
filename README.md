@@ -38,7 +38,7 @@ If eng (for English BMI style) is true then:
 
 Returns the class for the bmi value. Possible results are:
 
-- Underweight, Normal, Overweight, Obese 1 Class, Obese 2 Class, Morbid Obesity
+- Underweight, Normal, Overweight, Obese Class 1, Obese Class 2, Morbid Obesity
 
  
 
