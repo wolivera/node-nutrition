@@ -3,8 +3,6 @@ import {expect} from 'chai'
 
 describe('BMI Function', function () {
   it('should calculate BMI using common formula convention', function (done) {
-  	console.log('nutr')
-  	console.log(nutrition)
     expect(nutrition.bmi(65, 1.75)).to.equal(21.22)
     done()
   })
