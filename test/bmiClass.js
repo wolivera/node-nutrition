@@ -45,4 +45,13 @@ describe('BMI Class Function', function () {
     expect(nutrition.bmiClass(1000)).to.equal(MORBID_OBESE)
     done()
   })
+
+  it('should work with null and special values', function (done) {
+    expect(nutrition.bmiClass(null)).to.equal(UNDERWEIGHT)
+    expect(nutrition.bmiClass(undefined)).to.equal(UNDERWEIGHT)
+    expect(nutrition.bmiClass()).to.equal(UNDERWEIGHT)
+    expect(nutrition.bmiClass(4)).to.equal(UNDERWEIGHT)
+    expect(nutrition.bmiClass({})).to.equal(UNDERWEIGHT)
+    done()
+  })
 })
