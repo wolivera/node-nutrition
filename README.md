@@ -27,12 +27,18 @@ var value  = nutrition.bmi(75, 1.75)
 
 ## Methods
 
-#### `bmi(weight, height, eng)`
+#### `bmi(opts)`
 
-If eng (for English BMI style) is true then:
+`opts` is an object with properties containing formula values
 
-- **weight** is used in pounds, otherwise in kilograms.
-- **height** is used in inches, otherwise in meters.
+The following arguments are expected:
+
+**weight**
+**height**
+**eng** is a boolean to set the BMI style:
+
+- If true then **weight** is used in pounds, otherwise in kilograms.
+- If true then **height** is used in inches, otherwise in meters.
 
 #### `bmiClass(bmi)`
 
