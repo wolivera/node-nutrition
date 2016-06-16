@@ -15,13 +15,21 @@ Simple nutrition facts wrapper as an [NPM](https://www.npmjs.com/) module.
 // import for ES6
 import * as nutrition from 'nutrition'
 
-const value  = nutrition.bmi(75, 1.75)
+const opts = {
+  weight: 65,
+  height: 1.75
+}
+const value  = nutrition.bmi(opts)
 
 
 // OR import for ES5
 var nutrition = require('nutrition')
 
-var value  = nutrition.bmi(75, 1.75)
+const opts = {
+  weight: 65,
+  height: 1.75
+}
+var value  = nutrition.bmi(opts)
 
 ```
 
