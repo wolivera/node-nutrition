@@ -29,7 +29,7 @@ var value  = nutrition.bmi(75, 1.75)
 
 #### `bmi(opts)`
 
-BMI or Body Mass Index is ..
+BMI (Body Mass Index) is a measurement of body fat based on height and weight that applies to both men and women. It can be used to indicate if you are overweight, obese, underweight or normal. 
 
 `opts` is an object with properties containing formula values
 
@@ -41,15 +41,18 @@ The following arguments are expected:
 	- If true then **weight** is used in pounds, otherwise in kilograms.
 	- If true then **height** is used in inches, otherwise in meters.
 
+
 #### `bmiClass(bmi)`
 
 Returns the class from Body Mass Index value. Possible results are:
 
 - Underweight, Normal, Overweight, Obese Class 1, Obese Class 2, Morbid Obesity
 
+
+
 #### `bmr(opts)`
 
-BMR or Body Mass ..
+BMR (Basal Metabolic Rate) is the amount of energy expended while at rest in a neutrally temperate environment.
 
 `opts` is an object with properties containing formula values
 
@@ -59,6 +62,24 @@ The following arguments are expected:
 - **height** : Height in meters
 - **age** : Age in years
 - **woman** : True if subject is a woman, False if men. (Default is true)
+
+
+
+#### `dailyCalories(opts)`
+
+This method also know as the Harris–Benedict equation is a method used to estimate individual's daily kilocalorie requirements based on a basal metabolic rate (BMR).
+
+`opts` is an object with properties containing formula values
+
+The following arguments are expected:
+
+- **bmr** : Float obtained from bmr method
+- **exerciseType** : Exercise frequency. Use one of the following options: 
+	- 'No' if little to no exercise
+	- 'Light' if light exercise (1-3 days per week)
+	- 'Moderate' if medium exercise (3-5 days per week)
+	- 'Heavy' if heavy exercise (6-7 days per week)
+	- 'Full' if extra heavy exercise (twice per day)
 
 
 ## Next steps
