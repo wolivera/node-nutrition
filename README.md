@@ -29,24 +29,37 @@ var value  = nutrition.bmi(75, 1.75)
 
 #### `bmi(opts)`
 
+BMI or Body Mass Index is ..
+
 `opts` is an object with properties containing formula values
 
 The following arguments are expected:
 
-**weight**
-**height**
-**eng** is a boolean to set the BMI style:
-
-- If true then **weight** is used in pounds, otherwise in kilograms.
-- If true then **height** is used in inches, otherwise in meters.
+- **weight** : Subject weight (default is kilograms)
+- **height** : Subject height (default is meters)
+- **eng** : 
+	- If true then **weight** is used in pounds, otherwise in kilograms.
+	- If true then **height** is used in inches, otherwise in meters.
 
 #### `bmiClass(bmi)`
 
-Returns the class for the bmi value. Possible results are:
+Returns the class from Body Mass Index value. Possible results are:
 
 - Underweight, Normal, Overweight, Obese Class 1, Obese Class 2, Morbid Obesity
 
- 
+#### `bmr(opts)`
+
+BMR or Body Mass ..
+
+`opts` is an object with properties containing formula values
+
+The following arguments are expected:
+
+- **weight** : Weight in kilograms
+- **height** : Height in meters
+- **age** : Age in years
+- **woman** : True if subject is a woman, False if men. (Default is true)
+
 
 ## Next steps
 
