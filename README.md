@@ -25,7 +25,7 @@ const value  = nutrition.bmi(opts)
 // OR import for ES5
 var nutrition = require('nutrition')
 
-const opts = {
+var opts = {
   weight: 65,
   height: 1.75
 }
